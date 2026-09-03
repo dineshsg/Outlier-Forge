@@ -1,0 +1,24 @@
+{
+  "n_rows": 77760,
+  "n_lines": 6,
+  "n_days": 45,
+  "date_range": [
+    "2026-01-01 00:00:00",
+    "2026-02-14 23:55:00"
+  ],
+  "overall_anomaly_rate": 0.029835390946502057,
+  "anomaly_count_by_type": {
+    "drift": 1459,
+    "flatline": 541,
+    "correlated_fault": 272,
+    "spike": 48
+  },
+  "rows_per_line": {
+    "Line-A": 12960,
+    "Line-B": 12960,
+    "Line-C": 12960,
+    "Line-D": 12960,
+    "Line-E": 12960,
+    "Line-F": 12960
+  }
+}

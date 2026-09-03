@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+.env
+
+# Full generated dataset is ~11MB - larger than the "a few MB" threshold
+# this project targeted for a direct commit, so it's regenerated via
+# `python -m src.generate_data` (deterministic, seed=42) instead of
+# committed. data/sample_readings.csv (a real ~4,800-row chronological
+# slice) is committed so the repo still has real sample data to inspect.
+data/sensor_readings.csv
