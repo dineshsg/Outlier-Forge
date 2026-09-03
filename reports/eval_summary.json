@@ -1,0 +1,152 @@
+{
+  "isolation_forest": {
+    "fit_seconds": 0.6128243000130169,
+    "roc_auc": 0.7506292416208619,
+    "average_precision": 0.19195662395796104,
+    "naive_threshold": 0.4964151121329595,
+    "naive": {
+      "roc_auc": 0.7506292416208619,
+      "average_precision": 0.19195662395796104,
+      "precision": 0.2565597667638484,
+      "recall": 0.24410540915395285,
+      "f1": 0.2501776830135039,
+      "threshold": 0.4964151121329595
+    },
+    "cost_minimizing_threshold": 0.45062975240622327,
+    "cost_minimizing": {
+      "roc_auc": 0.7506292416208619,
+      "average_precision": 0.19195662395796104,
+      "precision": 0.054198927933293624,
+      "recall": 0.7572815533980582,
+      "f1": 0.10115794349235757,
+      "threshold": 0.45062975240622327
+    },
+    "cost_sweep_summary": {
+      "cost_fp": 50.0,
+      "cost_fn": 2000.0,
+      "best_total_cost": 826400.0,
+      "best_fp": 9528,
+      "best_fn": 175
+    }
+  },
+  "local_outlier_factor": {
+    "fit_seconds": 2.660737900005188,
+    "roc_auc": 0.7785366056128481,
+    "average_precision": 0.25388951820381306,
+    "naive_threshold": 1.2743175437772394,
+    "naive": {
+      "roc_auc": 0.7785366056128481,
+      "average_precision": 0.25388951820381306,
+      "precision": 0.358600583090379,
+      "recall": 0.34119278779472956,
+      "f1": 0.34968017057569295,
+      "threshold": 1.2743175437772394
+    },
+    "cost_minimizing_threshold": 1.1222272292636148,
+    "cost_minimizing": {
+      "roc_auc": 0.7785366056128481,
+      "average_precision": 0.25388951820381306,
+      "precision": 0.10707317073170732,
+      "recall": 0.608876560332871,
+      "f1": 0.18211989213856047,
+      "threshold": 1.1222272292636148
+    },
+    "cost_sweep_summary": {
+      "cost_fp": 50.0,
+      "cost_fn": 2000.0,
+      "best_total_cost": 747050.0,
+      "best_fp": 3661,
+      "best_fn": 282
+    }
+  },
+  "one_class_svm": {
+    "fit_seconds": 0.04407180001726374,
+    "roc_auc": 0.7800232816176224,
+    "average_precision": 0.193236477625092,
+    "naive_threshold": 0.5404204432409095,
+    "naive": {
+      "roc_auc": 0.7800232816176224,
+      "average_precision": 0.193236477625092,
+      "precision": 0.3469387755102041,
+      "recall": 0.3300970873786408,
+      "f1": 0.3383084577114428,
+      "threshold": 0.5404204432409095
+    },
+    "cost_minimizing_threshold": -1.3056168727146353,
+    "cost_minimizing": {
+      "roc_auc": 0.7800232816176224,
+      "average_precision": 0.193236477625092,
+      "precision": 0.12197136563876652,
+      "recall": 0.6144244105409153,
+      "f1": 0.20353779002986447,
+      "threshold": -1.3056168727146353
+    },
+    "cost_sweep_summary": {
+      "cost_fp": 50.0,
+      "cost_fn": 2000.0,
+      "best_total_cost": 715450.0,
+      "best_fp": 3189,
+      "best_fn": 278
+    }
+  },
+  "pca_reconstruction": {
+    "fit_seconds": 0.004425299994181842,
+    "roc_auc": 0.7133223497082185,
+    "average_precision": 0.10117422896343221,
+    "naive_threshold": 0.6479973340414154,
+    "naive": {
+      "roc_auc": 0.7133223497082185,
+      "average_precision": 0.10117422896343221,
+      "precision": 0.2259475218658892,
+      "recall": 0.21497919556171982,
+      "f1": 0.22032693674484718,
+      "threshold": 0.6479973340414154
+    },
+    "cost_minimizing_threshold": 0.2950595235279995,
+    "cost_minimizing": {
+      "roc_auc": 0.7133223497082185,
+      "average_precision": 0.10117422896343221,
+      "precision": 0.06111111111111111,
+      "recall": 0.6255201109570042,
+      "f1": 0.11134427848413776,
+      "threshold": 0.2950595235279995
+    },
+    "cost_sweep_summary": {
+      "cost_fp": 50.0,
+      "cost_fn": 2000.0,
+      "best_total_cost": 886450.0,
+      "best_fp": 6929,
+      "best_fn": 270
+    }
+  },
+  "rolling_zscore_baseline": {
+    "fit_seconds": 3.00002284348011e-07,
+    "roc_auc": 0.7525929335212743,
+    "average_precision": 0.41963920509312125,
+    "naive_threshold": 2.781077523307906,
+    "naive": {
+      "roc_auc": 0.7525929335212743,
+      "average_precision": 0.41963920509312125,
+      "precision": 0.41836734693877553,
+      "recall": 0.39805825242718446,
+      "f1": 0.4079601990049751,
+      "threshold": 2.781077523307906
+    },
+    "cost_minimizing_threshold": 1.981986323361487,
+    "cost_minimizing": {
+      "roc_auc": 0.7525929335212743,
+      "average_precision": 0.41963920509312125,
+      "precision": 0.0892018779342723,
+      "recall": 0.579750346740638,
+      "f1": 0.1546143887553172,
+      "threshold": 1.981986323361487
+    },
+    "cost_sweep_summary": {
+      "cost_fp": 50.0,
+      "cost_fn": 2000.0,
+      "best_total_cost": 819400.0,
+      "best_fp": 4268,
+      "best_fn": 303
+    }
+  }
+}

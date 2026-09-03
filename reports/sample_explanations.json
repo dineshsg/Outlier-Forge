@@ -1,0 +1,1312 @@
+{
+  "isolation_forest": [
+    {
+      "line_id": "Line-D",
+      "timestamp": "2026-02-06 07:15:00",
+      "true_anomaly_type": "correlated_fault",
+      "score": 0.6146780968450721,
+      "top_features": [
+        {
+          "feature": "temperature_c_roll_std_1h",
+          "z_score": 6.230337637377658,
+          "value": 3.801763939933097,
+          "calibration_mean": 1.5112129514112478
+        },
+        {
+          "feature": "vibration_mm_s_roll_std_1h",
+          "z_score": 5.824371428718626,
+          "value": 0.7439326717687403,
+          "calibration_mean": 0.3026609991798646
+        },
+        {
+          "feature": "motor_current_a_roll_std_1h",
+          "z_score": 4.724088150912702,
+          "value": 1.738034728080846,
+          "calibration_mean": 0.8006529756655537
+        }
+      ]
+    },
+    {
+      "line_id": "Line-D",
+      "timestamp": "2026-02-06 07:30:00",
+      "true_anomaly_type": "correlated_fault",
+      "score": 0.6146529896548899,
+      "top_features": [
+        {
+          "feature": "temperature_c_roll_std_1h",
+          "z_score": 5.9110852765579045,
+          "value": 3.684392482200766,
+          "calibration_mean": 1.5112129514112478
+        },
+        {
+          "feature": "motor_current_a_roll_std_1h",
+          "z_score": 5.484640224167554,
+          "value": 1.8889480075235627,
+          "calibration_mean": 0.8006529756655537
+        },
+        {
+          "feature": "vibration_mm_s_roll_std_1h",
+          "z_score": 5.21936540070659,
+          "value": 0.6980956187623256,
+          "calibration_mean": 0.3026609991798646
+        }
+      ]
+    },
+    {
+      "line_id": "Line-D",
+      "timestamp": "2026-02-06 08:20:00",
+      "true_anomaly_type": "none",
+      "score": 0.6129572003255943,
+      "top_features": [
+        {
+          "feature": "motor_current_a_roll_std_1h",
+          "z_score": 7.092500829047283,
+          "value": 2.207989300423756,
+          "calibration_mean": 0.8006529756655537
+        },
+        {
+          "feature": "motor_current_a_delta",
+          "z_score": -6.506646647415916,
+          "value": -7.497672349372213,
+          "calibration_mean": 1.2369035348989316e-06
+        },
+        {
+          "feature": "vibration_mm_s_roll_std_1h",
+          "z_score": 3.1413880712513773,
+          "value": 0.5406618865574757,
+          "calibration_mean": 0.3026609991798646
+        }
+      ]
+    },
+    {
+      "line_id": "Line-D",
+      "timestamp": "2026-02-06 07:35:00",
+      "true_anomaly_type": "correlated_fault",
+      "score": 0.6111315281057833,
+      "top_features": [
+        {
+          "feature": "motor_current_a_roll_std_1h",
+          "z_score": 4.831367997562768,
+          "value": 1.7593218352302444,
+          "calibration_mean": 0.8006529756655537
+        },
+        {
+          "feature": "vibration_mm_s_roll_std_1h",
+          "z_score": 4.156840940503422,
+          "value": 0.6175956109145097,
+          "calibration_mean": 0.3026609991798646
+        },
+        {
+          "feature": "temperature_c_roll_std_1h",
+          "z_score": 4.150019738801082,
+          "value": 3.03694596434905,
+          "calibration_mean": 1.5112129514112478
+        }
+      ]
+    },
+    {
+      "line_id": "Line-F",
+      "timestamp": "2026-02-02 01:55:00",
+      "true_anomaly_type": "correlated_fault",
+      "score": 0.6080892271276052,
+      "top_features": [
+        {
+          "feature": "temperature_c_roll_std_1h",
+          "z_score": 11.047967916795077,
+          "value": 5.572940470182425,
+          "calibration_mean": 1.5112129514112478
+        },
+        {
+          "feature": "vibration_mm_s_roll_std_1h",
+          "z_score": 6.6095064689081005,
+          "value": 0.8034168335590135,
+          "calibration_mean": 0.3026609991798646
+        },
+        {
+          "feature": "motor_current_a_roll_std_1h",
+          "z_score": 4.506524841717269,
+          "value": 1.694864518398056,
+          "calibration_mean": 0.8006529756655537
+        }
+      ]
+    },
+    {
+      "line_id": "Line-D",
+      "timestamp": "2026-02-06 07:20:00",
+      "true_anomaly_type": "correlated_fault",
+      "score": 0.6074137407157565,
+      "top_features": [
+        {
+          "feature": "temperature_c_roll_std_1h",
+          "z_score": 6.848175808869499,
+          "value": 4.028908906518378,
+          "calibration_mean": 1.5112129514112478
+        },
+        {
+          "feature": "vibration_mm_s_roll_std_1h",
+          "z_score": 5.8233084923343075,
+          "value": 0.7438521405522985,
+          "calibration_mean": 0.3026609991798646
+        },
+        {
+          "feature": "motor_current_a_roll_std_1h",
+          "z_score": 5.223325179869127,
+          "value": 1.8370963175610004,
+          "calibration_mean": 0.8006529756655537
+        }
+      ]
+    },
+    {
+      "line_id": "Line-F",
+      "timestamp": "2026-02-02 02:10:00",
+      "true_anomaly_type": "none",
+      "score": 0.6068153536053772,
+      "top_features": [
+        {
+          "feature": "temperature_c_roll_std_1h",
+          "z_score": 6.681427559471103,
+          "value": 3.967604786304671,
+          "calibration_mean": 1.5112129514112478
+        },
+        {
+          "feature": "vibration_mm_s_roll_std_1h",
+          "z_score": 5.25107055110144,
+          "value": 0.7004976950920447,
+          "calibration_mean": 0.3026609991798646
+        },
+        {
+          "feature": "vibration_mm_s_roll_mean_1h",
+          "z_score": 4.693512082832646,
+          "value": 4.215067057240548,
+          "calibration_mean": 2.5180219403757116
+        }
+      ]
+    },
+    {
+      "line_id": "Line-D",
+      "timestamp": "2026-02-06 07:40:00",
+      "true_anomaly_type": "correlated_fault",
+      "score": 0.6060024945491542,
+      "top_features": [
+        {
+          "feature": "motor_current_a_roll_std_1h",
+          "z_score": 4.173375433213241,
+          "value": 1.6287590253624764,
+          "calibration_mean": 0.8006529756655537
+        },
+        {
+          "feature": "temperature_c_roll_std_1h",
+          "z_score": 3.664039522156299,
+          "value": 2.8582778839934084,
+          "calibration_mean": 1.5112129514112478
+        },
+        {
+          "feature": "vibration_mm_s_roll_std_1h",
+          "z_score": 3.354567493008118,
+          "value": 0.5568129925010783,
+          "calibration_mean": 0.3026609991798646
+        }
+      ]
+    },
+    {
+      "line_id": "Line-A",
+      "timestamp": "2026-02-03 20:15:00",
+      "true_anomaly_type": "correlated_fault",
+      "score": 0.6059213571719019,
+      "top_features": [
+        {
+          "feature": "temperature_c_roll_std_1h",
+          "z_score": 6.837462218703776,
+          "value": 4.024970111227816,
+          "calibration_mean": 1.5112129514112478
+        },
+        {
+          "feature": "motor_current_a_roll_std_1h",
+          "z_score": 6.184985179782289,
+          "value": 2.027914631519035,
+          "calibration_mean": 0.8006529756655537
+        },
+        {
+          "feature": "vibration_mm_s_roll_std_1h",
+          "z_score": 5.687903066224326,
+          "value": 0.733593423437771,
+          "calibration_mean": 0.3026609991798646
+        }
+      ]
+    },
+    {
+      "line_id": "Line-F",
+      "timestamp": "2026-02-02 01:35:00",
+      "true_anomaly_type": "correlated_fault",
+      "score": 0.5937104035822754,
+      "top_features": [
+        {
+          "feature": "temperature_c_roll_std_1h",
+          "z_score": 10.667126041381493,
+          "value": 5.432925950107994,
+          "calibration_mean": 1.5112129514112478
+        },
+        {
+          "feature": "vibration_mm_s_roll_std_1h",
+          "z_score": 6.356362883492343,
+          "value": 0.7842379239189511,
+          "calibration_mean": 0.3026609991798646
+        },
+        {
+          "feature": "vibration_mm_s",
+          "z_score": 5.544778046387365,
+          "value": 5.118423766432014,
+          "calibration_mean": 2.5180321748737686
+        }
+      ]
+    }
+  ],
+  "local_outlier_factor": [
+    {
+      "line_id": "Line-F",
+      "timestamp": "2026-02-09 11:35:00",
+      "true_anomaly_type": "spike",
+      "score": 2.4515742064176003,
+      "top_features": [
+        {
+          "feature": "temperature_c_roll_std_1h",
+          "z_score": 7.7322327123853665,
+          "value": 4.35392779507899,
+          "calibration_mean": 1.5112129514112478
+        },
+        {
+          "feature": "temperature_c_delta",
+          "z_score": -6.542119677682119,
+          "value": -13.978230057123412,
+          "calibration_mean": -0.0001526344130398128
+        },
+        {
+          "feature": "temperature_c",
+          "z_score": -2.3970766252365427,
+          "value": 54.34120041938097,
+          "calibration_mean": 67.19396883892568
+        }
+      ]
+    },
+    {
+      "line_id": "Line-F",
+      "timestamp": "2026-02-09 11:40:00",
+      "true_anomaly_type": "none",
+      "score": 2.29743449072234,
+      "top_features": [
+        {
+          "feature": "temperature_c_roll_std_1h",
+          "z_score": 7.5347693988943005,
+          "value": 4.2813314424832205,
+          "calibration_mean": 1.5112129514112478
+        },
+        {
+          "feature": "temperature_c_delta",
+          "z_score": 5.932535062880989,
+          "value": 12.675469107082677,
+          "calibration_mean": -0.0001526344130398128
+        },
+        {
+          "feature": "flow_rate_lpm_delta",
+          "z_score": -3.941318727043619,
+          "value": -22.396065352722857,
+          "calibration_mean": -4.654290590345445e-05
+        }
+      ]
+    },
+    {
+      "line_id": "Line-D",
+      "timestamp": "2026-02-12 21:50:00",
+      "true_anomaly_type": "spike",
+      "score": 2.2224130135409017,
+      "top_features": [
+        {
+          "feature": "vibration_mm_s_roll_std_1h",
+          "z_score": 7.274629333507129,
+          "value": 0.8538085165982403,
+          "calibration_mean": 0.3026609991798646
+        },
+        {
+          "feature": "vibration_mm_s",
+          "z_score": -6.807299066721498,
+          "value": -0.6744568853255246,
+          "calibration_mean": 2.5180321748737686
+        },
+        {
+          "feature": "vibration_mm_s_delta",
+          "z_score": -6.721043377531548,
+          "value": -2.8923003706867085,
+          "calibration_mean": -2.497876694386296e-06
+        }
+      ]
+    },
+    {
+      "line_id": "Line-E",
+      "timestamp": "2026-02-05 16:25:00",
+      "true_anomaly_type": "spike",
+      "score": 2.221050013478107,
+      "top_features": [
+        {
+          "feature": "humidity_pct_roll_std_1h",
+          "z_score": 7.017781355796816,
+          "value": 7.687378700665071,
+          "calibration_mean": 2.9487491255089884
+        },
+        {
+          "feature": "humidity_pct",
+          "z_score": -6.131052081815635,
+          "value": 19.45862617556635,
+          "calibration_mean": 51.919256095390644
+        },
+        {
+          "feature": "humidity_pct_delta",
+          "z_score": -4.9400250215172345,
+          "value": -21.065066680802566,
+          "calibration_mean": -0.00023660547689992838
+        }
+      ]
+    },
+    {
+      "line_id": "Line-A",
+      "timestamp": "2026-02-03 20:35:00",
+      "true_anomaly_type": "correlated_fault",
+      "score": 2.1973221045214197,
+      "top_features": [
+        {
+          "feature": "motor_current_a",
+          "z_score": 4.873013208821496,
+          "value": 22.70059501873656,
+          "calibration_mean": 15.735469335346195
+        },
+        {
+          "feature": "motor_current_a_roll_mean_1h",
+          "z_score": 3.8440598510110098,
+          "value": 20.315619650889513,
+          "calibration_mean": 15.735517785574274
+        },
+        {
+          "feature": "vibration_mm_s",
+          "z_score": 2.6016754236147914,
+          "value": 3.7381666579735096,
+          "calibration_mean": 2.5180321748737686
+        }
+      ]
+    },
+    {
+      "line_id": "Line-A",
+      "timestamp": "2026-02-09 18:50:00",
+      "true_anomaly_type": "correlated_fault",
+      "score": 2.1711296884368503,
+      "top_features": [
+        {
+          "feature": "motor_current_a_roll_mean_1h",
+          "z_score": 4.8593031113050795,
+          "value": 21.525256787262048,
+          "calibration_mean": 15.735517785574274
+        },
+        {
+          "feature": "motor_current_a",
+          "z_score": 3.0505629880600273,
+          "value": 20.095719083586776,
+          "calibration_mean": 15.735469335346195
+        },
+        {
+          "feature": "vibration_mm_s_roll_mean_1h",
+          "z_score": 2.6218131860025635,
+          "value": 3.465997611070525,
+          "calibration_mean": 2.5180219403757116
+        }
+      ]
+    },
+    {
+      "line_id": "Line-A",
+      "timestamp": "2026-02-09 18:45:00",
+      "true_anomaly_type": "correlated_fault",
+      "score": 2.1423520044300965,
+      "top_features": [
+        {
+          "feature": "motor_current_a_roll_mean_1h",
+          "z_score": 4.8805392113049315,
+          "value": 21.55055907312416,
+          "calibration_mean": 15.735517785574274
+        },
+        {
+          "feature": "motor_current_a",
+          "z_score": 4.8765371276413445,
+          "value": 22.705631848399545,
+          "calibration_mean": 15.735469335346195
+        },
+        {
+          "feature": "vibration_mm_s_roll_mean_1h",
+          "z_score": 2.6486861103192147,
+          "value": 3.4757141227535904,
+          "calibration_mean": 2.5180219403757116
+        }
+      ]
+    },
+    {
+      "line_id": "Line-E",
+      "timestamp": "2026-02-05 16:30:00",
+      "true_anomaly_type": "none",
+      "score": 2.113847078357232,
+      "top_features": [
+        {
+          "feature": "humidity_pct_roll_std_1h",
+          "z_score": 7.022714007206477,
+          "value": 7.690709384063243,
+          "calibration_mean": 2.9487491255089884
+        },
+        {
+          "feature": "humidity_pct_delta",
+          "z_score": 5.245474908943464,
+          "value": 22.367066624769087,
+          "calibration_mean": -0.00023660547689992838
+        },
+        {
+          "feature": "humidity_pct_roll_mean_1h",
+          "z_score": -2.081286541246649,
+          "value": 42.69548168099106,
+          "calibration_mean": 51.91990634215312
+        }
+      ]
+    },
+    {
+      "line_id": "Line-A",
+      "timestamp": "2026-02-09 18:55:00",
+      "true_anomaly_type": "correlated_fault",
+      "score": 2.094206470056063,
+      "top_features": [
+        {
+          "feature": "motor_current_a_roll_mean_1h",
+          "z_score": 4.974001313715803,
+          "value": 21.661916847503175,
+          "calibration_mean": 15.735517785574274
+        },
+        {
+          "feature": "motor_current_a",
+          "z_score": 4.6085521753929,
+          "value": 22.322593922237388,
+          "calibration_mean": 15.735469335346195
+        },
+        {
+          "feature": "vibration_mm_s_roll_mean_1h",
+          "z_score": 2.656119443491888,
+          "value": 3.478401811959474,
+          "calibration_mean": 2.5180219403757116
+        }
+      ]
+    },
+    {
+      "line_id": "Line-F",
+      "timestamp": "2026-02-05 06:55:00",
+      "true_anomaly_type": "none",
+      "score": 2.0938360648002114,
+      "top_features": [
+        {
+          "feature": "motor_current_a_delta",
+          "z_score": 6.984366883106441,
+          "value": 8.048156597718055,
+          "calibration_mean": 1.2369035348989316e-06
+        },
+        {
+          "feature": "motor_current_a_roll_std_1h",
+          "z_score": 6.358056362106504,
+          "value": 2.0622564479706003,
+          "calibration_mean": 0.8006529756655537
+        },
+        {
+          "feature": "vibration_mm_s_roll_std_1h",
+          "z_score": -1.9865784991924968,
+          "value": 0.15215191372810968,
+          "calibration_mean": 0.3026609991798646
+        }
+      ]
+    }
+  ],
+  "one_class_svm": [
+    {
+      "line_id": "Line-A",
+      "timestamp": "2026-02-11 11:15:00",
+      "true_anomaly_type": "spike",
+      "score": 4.935289433106853,
+      "top_features": [
+        {
+          "feature": "flow_rate_lpm_roll_std_1h",
+          "z_score": 9.301700265623822,
+          "value": 12.20655897766863,
+          "calibration_mean": 3.9170806108903813
+        },
+        {
+          "feature": "flow_rate_lpm_delta",
+          "z_score": 7.497267404306971,
+          "value": 42.602177087720094,
+          "calibration_mean": -4.654290590345445e-05
+        },
+        {
+          "feature": "flow_rate_lpm",
+          "z_score": 5.1373699837952,
+          "value": 144.02161319315306,
+          "calibration_mean": 96.17063241977742
+        }
+      ]
+    },
+    {
+      "line_id": "Line-D",
+      "timestamp": "2026-02-12 21:50:00",
+      "true_anomaly_type": "spike",
+      "score": 4.820964486142238,
+      "top_features": [
+        {
+          "feature": "vibration_mm_s_roll_std_1h",
+          "z_score": 7.274629333507129,
+          "value": 0.8538085165982403,
+          "calibration_mean": 0.3026609991798646
+        },
+        {
+          "feature": "vibration_mm_s",
+          "z_score": -6.807299066721498,
+          "value": -0.6744568853255246,
+          "calibration_mean": 2.5180321748737686
+        },
+        {
+          "feature": "vibration_mm_s_delta",
+          "z_score": -6.721043377531548,
+          "value": -2.8923003706867085,
+          "calibration_mean": -2.497876694386296e-06
+        }
+      ]
+    },
+    {
+      "line_id": "Line-C",
+      "timestamp": "2026-02-01 14:00:00",
+      "true_anomaly_type": "spike",
+      "score": 4.803686510867551,
+      "top_features": [
+        {
+          "feature": "motor_current_a_roll_std_1h",
+          "z_score": 8.810282312572266,
+          "value": 2.548841749796889,
+          "calibration_mean": 0.8006529756655537
+        },
+        {
+          "feature": "motor_current_a_delta",
+          "z_score": 7.053449008458721,
+          "value": 8.127760617208384,
+          "calibration_mean": 1.2369035348989316e-06
+        },
+        {
+          "feature": "motor_current_a",
+          "z_score": 5.180795677881055,
+          "value": 23.14051658025896,
+          "calibration_mean": 15.735469335346195
+        }
+      ]
+    },
+    {
+      "line_id": "Line-F",
+      "timestamp": "2026-02-06 10:10:00",
+      "true_anomaly_type": "none",
+      "score": 4.801216770260494,
+      "top_features": [
+        {
+          "feature": "pressure_psi_roll_std_1h",
+          "z_score": 10.858198595769332,
+          "value": 6.875840110516948,
+          "calibration_mean": 1.9519934152953167
+        },
+        {
+          "feature": "flow_rate_lpm_delta",
+          "z_score": 3.0114115429523354,
+          "value": 17.111898526974258,
+          "calibration_mean": -4.654290590345445e-05
+        },
+        {
+          "feature": "pressure_psi_roll_mean_1h",
+          "z_score": 2.6397982612503323,
+          "value": 60.63670333717406,
+          "calibration_mean": 47.0094418748004
+        }
+      ]
+    },
+    {
+      "line_id": "Line-A",
+      "timestamp": "2026-02-11 11:20:00",
+      "true_anomaly_type": "none",
+      "score": 4.782618196925534,
+      "top_features": [
+        {
+          "feature": "flow_rate_lpm_roll_std_1h",
+          "z_score": 9.390238575179705,
+          "value": 12.285462444855913,
+          "calibration_mean": 3.9170806108903813
+        },
+        {
+          "feature": "flow_rate_lpm_delta",
+          "z_score": -7.4705299149639846,
+          "value": -42.4503379509121,
+          "calibration_mean": -4.654290590345445e-05
+        },
+        {
+          "feature": "humidity_pct_delta",
+          "z_score": -2.36930370642804,
+          "value": -10.10321781617072,
+          "calibration_mean": -0.00023660547689992838
+        }
+      ]
+    },
+    {
+      "line_id": "Line-E",
+      "timestamp": "2026-02-12 06:20:00",
+      "true_anomaly_type": "spike",
+      "score": 4.7667221867938,
+      "top_features": [
+        {
+          "feature": "humidity_pct_roll_std_1h",
+          "z_score": 9.241636294123374,
+          "value": 9.188996412494541,
+          "calibration_mean": 2.9487491255089884
+        },
+        {
+          "feature": "humidity_pct_delta",
+          "z_score": -6.610697455923034,
+          "value": -28.18900447241321,
+          "calibration_mean": -0.00023660547689992838
+        },
+        {
+          "feature": "humidity_pct",
+          "z_score": -5.291261798292512,
+          "value": 23.90486496785462,
+          "calibration_mean": 51.919256095390644
+        }
+      ]
+    },
+    {
+      "line_id": "Line-B",
+      "timestamp": "2026-02-11 11:55:00",
+      "true_anomaly_type": "spike",
+      "score": 4.759847816508843,
+      "top_features": [
+        {
+          "feature": "vibration_mm_s_roll_std_1h",
+          "z_score": 8.434167763289201,
+          "value": 0.9416585908256635,
+          "calibration_mean": 0.3026609991798646
+        },
+        {
+          "feature": "vibration_mm_s",
+          "z_score": -6.518846036696249,
+          "value": -0.5391781009338086,
+          "calibration_mean": 2.5180321748737686
+        },
+        {
+          "feature": "vibration_mm_s_delta",
+          "z_score": -5.845604324927234,
+          "value": -2.5155686093523224,
+          "calibration_mean": -2.497876694386296e-06
+        }
+      ]
+    },
+    {
+      "line_id": "Line-C",
+      "timestamp": "2026-02-01 14:05:00",
+      "true_anomaly_type": "none",
+      "score": 4.739854559599585,
+      "top_features": [
+        {
+          "feature": "motor_current_a_roll_std_1h",
+          "z_score": 8.845495447918719,
+          "value": 2.555828950176018,
+          "calibration_mean": 0.8006529756655537
+        },
+        {
+          "feature": "motor_current_a_delta",
+          "z_score": -7.357980375318487,
+          "value": -8.478672663464229,
+          "calibration_mean": 1.2369035348989316e-06
+        },
+        {
+          "feature": "humidity_pct_roll_std_1h",
+          "z_score": -1.7325327046631316,
+          "value": 1.7788878405801836,
+          "calibration_mean": 2.9487491255089884
+        }
+      ]
+    },
+    {
+      "line_id": "Line-F",
+      "timestamp": "2026-02-09 11:35:00",
+      "true_anomaly_type": "spike",
+      "score": 4.733936468619095,
+      "top_features": [
+        {
+          "feature": "temperature_c_roll_std_1h",
+          "z_score": 7.7322327123853665,
+          "value": 4.35392779507899,
+          "calibration_mean": 1.5112129514112478
+        },
+        {
+          "feature": "temperature_c_delta",
+          "z_score": -6.542119677682119,
+          "value": -13.978230057123412,
+          "calibration_mean": -0.0001526344130398128
+        },
+        {
+          "feature": "temperature_c",
+          "z_score": -2.3970766252365427,
+          "value": 54.34120041938097,
+          "calibration_mean": 67.19396883892568
+        }
+      ]
+    },
+    {
+      "line_id": "Line-D",
+      "timestamp": "2026-02-06 04:20:00",
+      "true_anomaly_type": "none",
+      "score": 4.731859060641531,
+      "top_features": [
+        {
+          "feature": "flow_rate_lpm_roll_std_1h",
+          "z_score": 10.336578675184544,
+          "value": 13.128820708677456,
+          "calibration_mean": 3.9170806108903813
+        },
+        {
+          "feature": "vibration_mm_s_delta",
+          "z_score": -2.7784897899777254,
+          "value": -1.1956829388097208,
+          "calibration_mean": -2.497876694386296e-06
+        },
+        {
+          "feature": "humidity_pct_roll_mean_1h",
+          "z_score": 1.9947708128958268,
+          "value": 60.76088653165694,
+          "calibration_mean": 51.91990634215312
+        }
+      ]
+    }
+  ],
+  "pca_reconstruction": [
+    {
+      "line_id": "Line-F",
+      "timestamp": "2026-02-06 10:15:00",
+      "true_anomaly_type": "none",
+      "score": 4.919829683540608,
+      "top_features": [
+        {
+          "feature": "pressure_psi_roll_std_1h",
+          "z_score": 10.725889323621741,
+          "value": 6.815842076159303,
+          "calibration_mean": 1.9519934152953167
+        },
+        {
+          "feature": "pressure_psi_roll_mean_1h",
+          "z_score": 2.3963626852290294,
+          "value": 59.38003145721208,
+          "calibration_mean": 47.0094418748004
+        },
+        {
+          "feature": "vibration_mm_s_roll_mean_1h",
+          "z_score": 2.2040855349730766,
+          "value": 3.314958760451189,
+          "calibration_mean": 2.5180219403757116
+        }
+      ]
+    },
+    {
+      "line_id": "Line-D",
+      "timestamp": "2026-02-06 04:15:00",
+      "true_anomaly_type": "none",
+      "score": 4.3823251573489985,
+      "top_features": [
+        {
+          "feature": "flow_rate_lpm_roll_std_1h",
+          "z_score": 11.676959507893816,
+          "value": 14.323339731941486,
+          "calibration_mean": 3.9170806108903813
+        },
+        {
+          "feature": "humidity_pct_roll_mean_1h",
+          "z_score": 2.144624337504366,
+          "value": 61.42504906793755,
+          "calibration_mean": 51.91990634215312
+        },
+        {
+          "feature": "flow_rate_lpm",
+          "z_score": -1.5868015046767465,
+          "value": 81.39069472189767,
+          "calibration_mean": 96.17063241977742
+        }
+      ]
+    },
+    {
+      "line_id": "Line-F",
+      "timestamp": "2026-02-06 10:20:00",
+      "true_anomaly_type": "none",
+      "score": 4.366285492161951,
+      "top_features": [
+        {
+          "feature": "pressure_psi_roll_std_1h",
+          "z_score": 10.35555327233672,
+          "value": 6.6479064903291025,
+          "calibration_mean": 1.9519934152953167
+        },
+        {
+          "feature": "pressure_psi_roll_mean_1h",
+          "z_score": 2.2590183547232683,
+          "value": 58.67102761792241,
+          "calibration_mean": 47.0094418748004
+        },
+        {
+          "feature": "vibration_mm_s_roll_mean_1h",
+          "z_score": 2.2310988054616097,
+          "value": 3.3247260174570443,
+          "calibration_mean": 2.5180219403757116
+        }
+      ]
+    },
+    {
+      "line_id": "Line-A",
+      "timestamp": "2026-02-11 11:20:00",
+      "true_anomaly_type": "none",
+      "score": 4.329811048217188,
+      "top_features": [
+        {
+          "feature": "flow_rate_lpm_roll_std_1h",
+          "z_score": 9.390238575179705,
+          "value": 12.285462444855913,
+          "calibration_mean": 3.9170806108903813
+        },
+        {
+          "feature": "flow_rate_lpm_delta",
+          "z_score": -7.4705299149639846,
+          "value": -42.4503379509121,
+          "calibration_mean": -4.654290590345445e-05
+        },
+        {
+          "feature": "humidity_pct_delta",
+          "z_score": -2.36930370642804,
+          "value": -10.10321781617072,
+          "calibration_mean": -0.00023660547689992838
+        }
+      ]
+    },
+    {
+      "line_id": "Line-F",
+      "timestamp": "2026-02-06 10:10:00",
+      "true_anomaly_type": "none",
+      "score": 4.296862905229921,
+      "top_features": [
+        {
+          "feature": "pressure_psi_roll_std_1h",
+          "z_score": 10.858198595769332,
+          "value": 6.875840110516948,
+          "calibration_mean": 1.9519934152953167
+        },
+        {
+          "feature": "flow_rate_lpm_delta",
+          "z_score": 3.0114115429523354,
+          "value": 17.111898526974258,
+          "calibration_mean": -4.654290590345445e-05
+        },
+        {
+          "feature": "pressure_psi_roll_mean_1h",
+          "z_score": 2.6397982612503323,
+          "value": 60.63670333717406,
+          "calibration_mean": 47.0094418748004
+        }
+      ]
+    },
+    {
+      "line_id": "Line-A",
+      "timestamp": "2026-02-11 11:15:00",
+      "true_anomaly_type": "spike",
+      "score": 4.213695698038852,
+      "top_features": [
+        {
+          "feature": "flow_rate_lpm_roll_std_1h",
+          "z_score": 9.301700265623822,
+          "value": 12.20655897766863,
+          "calibration_mean": 3.9170806108903813
+        },
+        {
+          "feature": "flow_rate_lpm_delta",
+          "z_score": 7.497267404306971,
+          "value": 42.602177087720094,
+          "calibration_mean": -4.654290590345445e-05
+        },
+        {
+          "feature": "flow_rate_lpm",
+          "z_score": 5.1373699837952,
+          "value": 144.02161319315306,
+          "calibration_mean": 96.17063241977742
+        }
+      ]
+    },
+    {
+      "line_id": "Line-F",
+      "timestamp": "2026-02-06 10:05:00",
+      "true_anomaly_type": "none",
+      "score": 4.049464805368371,
+      "top_features": [
+        {
+          "feature": "pressure_psi_roll_std_1h",
+          "z_score": 10.160078293088109,
+          "value": 6.559264822737316,
+          "calibration_mean": 1.9519934152953167
+        },
+        {
+          "feature": "vibration_mm_s",
+          "z_score": 2.9588854547557046,
+          "value": 3.9056911203826576,
+          "calibration_mean": 2.5180321748737686
+        },
+        {
+          "feature": "pressure_psi_roll_mean_1h",
+          "z_score": 2.7606276781483503,
+          "value": 61.26045329586808,
+          "calibration_mean": 47.0094418748004
+        }
+      ]
+    },
+    {
+      "line_id": "Line-D",
+      "timestamp": "2026-02-06 04:20:00",
+      "true_anomaly_type": "none",
+      "score": 4.043831521786795,
+      "top_features": [
+        {
+          "feature": "flow_rate_lpm_roll_std_1h",
+          "z_score": 10.336578675184544,
+          "value": 13.128820708677456,
+          "calibration_mean": 3.9170806108903813
+        },
+        {
+          "feature": "vibration_mm_s_delta",
+          "z_score": -2.7784897899777254,
+          "value": -1.1956829388097208,
+          "calibration_mean": -2.497876694386296e-06
+        },
+        {
+          "feature": "humidity_pct_roll_mean_1h",
+          "z_score": 1.9947708128958268,
+          "value": 60.76088653165694,
+          "calibration_mean": 51.91990634215312
+        }
+      ]
+    },
+    {
+      "line_id": "Line-A",
+      "timestamp": "2026-02-11 11:30:00",
+      "true_anomaly_type": "none",
+      "score": 3.8226841392717326,
+      "top_features": [
+        {
+          "feature": "flow_rate_lpm_roll_std_1h",
+          "z_score": 9.774402937197122,
+          "value": 12.627821591817415,
+          "calibration_mean": 3.9170806108903813
+        },
+        {
+          "feature": "flow_rate_lpm_delta",
+          "z_score": -2.1695214836501115,
+          "value": -12.328063463419255,
+          "calibration_mean": -4.654290590345445e-05
+        },
+        {
+          "feature": "motor_current_a_delta",
+          "z_score": 2.055041996383176,
+          "value": 2.3680465496282928,
+          "calibration_mean": 1.2369035348989316e-06
+        }
+      ]
+    },
+    {
+      "line_id": "Line-F",
+      "timestamp": "2026-02-06 10:25:00",
+      "true_anomaly_type": "none",
+      "score": 3.7911578813371194,
+      "top_features": [
+        {
+          "feature": "pressure_psi_roll_std_1h",
+          "z_score": 9.549705954860968,
+          "value": 6.2824804377468455,
+          "calibration_mean": 1.9519934152953167
+        },
+        {
+          "feature": "vibration_mm_s_roll_mean_1h",
+          "z_score": 2.103342786620854,
+          "value": 3.2785329483656045,
+          "calibration_mean": 2.5180219403757116
+        },
+        {
+          "feature": "pressure_psi_roll_mean_1h",
+          "z_score": 2.0578751621369435,
+          "value": 57.632678999777575,
+          "calibration_mean": 47.0094418748004
+        }
+      ]
+    }
+  ],
+  "rolling_zscore_baseline": [
+    {
+      "line_id": "Line-A",
+      "timestamp": "2026-02-11 11:15:00",
+      "true_anomaly_type": "spike",
+      "score": 10.189694433760918,
+      "top_features": [
+        {
+          "feature": "flow_rate_lpm_roll_std_1h",
+          "z_score": 9.301700265623822,
+          "value": 12.20655897766863,
+          "calibration_mean": 3.9170806108903813
+        },
+        {
+          "feature": "flow_rate_lpm_delta",
+          "z_score": 7.497267404306971,
+          "value": 42.602177087720094,
+          "calibration_mean": -4.654290590345445e-05
+        },
+        {
+          "feature": "flow_rate_lpm",
+          "z_score": 5.1373699837952,
+          "value": 144.02161319315306,
+          "calibration_mean": 96.17063241977742
+        }
+      ]
+    },
+    {
+      "line_id": "Line-B",
+      "timestamp": "2026-02-11 11:55:00",
+      "true_anomaly_type": "spike",
+      "score": 9.519539872316223,
+      "top_features": [
+        {
+          "feature": "vibration_mm_s_roll_std_1h",
+          "z_score": 8.434167763289201,
+          "value": 0.9416585908256635,
+          "calibration_mean": 0.3026609991798646
+        },
+        {
+          "feature": "vibration_mm_s",
+          "z_score": -6.518846036696249,
+          "value": -0.5391781009338086,
+          "calibration_mean": 2.5180321748737686
+        },
+        {
+          "feature": "vibration_mm_s_delta",
+          "z_score": -5.845604324927234,
+          "value": -2.5155686093523224,
+          "calibration_mean": -2.497876694386296e-06
+        }
+      ]
+    },
+    {
+      "line_id": "Line-C",
+      "timestamp": "2026-02-01 14:00:00",
+      "true_anomaly_type": "spike",
+      "score": 9.056238154505484,
+      "top_features": [
+        {
+          "feature": "motor_current_a_roll_std_1h",
+          "z_score": 8.810282312572266,
+          "value": 2.548841749796889,
+          "calibration_mean": 0.8006529756655537
+        },
+        {
+          "feature": "motor_current_a_delta",
+          "z_score": 7.053449008458721,
+          "value": 8.127760617208384,
+          "calibration_mean": 1.2369035348989316e-06
+        },
+        {
+          "feature": "motor_current_a",
+          "z_score": 5.180795677881055,
+          "value": 23.14051658025896,
+          "calibration_mean": 15.735469335346195
+        }
+      ]
+    },
+    {
+      "line_id": "Line-D",
+      "timestamp": "2026-02-12 21:50:00",
+      "true_anomaly_type": "spike",
+      "score": 8.95116697847087,
+      "top_features": [
+        {
+          "feature": "vibration_mm_s_roll_std_1h",
+          "z_score": 7.274629333507129,
+          "value": 0.8538085165982403,
+          "calibration_mean": 0.3026609991798646
+        },
+        {
+          "feature": "vibration_mm_s",
+          "z_score": -6.807299066721498,
+          "value": -0.6744568853255246,
+          "calibration_mean": 2.5180321748737686
+        },
+        {
+          "feature": "vibration_mm_s_delta",
+          "z_score": -6.721043377531548,
+          "value": -2.8923003706867085,
+          "calibration_mean": -2.497876694386296e-06
+        }
+      ]
+    },
+    {
+      "line_id": "Line-A",
+      "timestamp": "2026-02-07 11:50:00",
+      "true_anomaly_type": "spike",
+      "score": 8.613032085099887,
+      "top_features": [
+        {
+          "feature": "flow_rate_lpm_roll_std_1h",
+          "z_score": 7.387793909653851,
+          "value": 10.50092614917537,
+          "calibration_mean": 3.9170806108903813
+        },
+        {
+          "feature": "flow_rate_lpm_delta",
+          "z_score": 5.760475867177891,
+          "value": 32.73309046263242,
+          "calibration_mean": -4.654290590345445e-05
+        },
+        {
+          "feature": "flow_rate_lpm",
+          "z_score": 4.463808943889681,
+          "value": 137.74786680699074,
+          "calibration_mean": 96.17063241977742
+        }
+      ]
+    },
+    {
+      "line_id": "Line-E",
+      "timestamp": "2026-02-01 17:25:00",
+      "true_anomaly_type": "spike",
+      "score": 8.408043939298333,
+      "top_features": [
+        {
+          "feature": "flow_rate_lpm_roll_std_1h",
+          "z_score": 7.569260933911791,
+          "value": 10.66264571967466,
+          "calibration_mean": 3.9170806108903813
+        },
+        {
+          "feature": "flow_rate_lpm_delta",
+          "z_score": 5.791866384478354,
+          "value": 32.911462896987246,
+          "calibration_mean": -4.654290590345445e-05
+        },
+        {
+          "feature": "flow_rate_lpm",
+          "z_score": 4.51122848389016,
+          "value": 138.18954640258198,
+          "calibration_mean": 96.17063241977742
+        }
+      ]
+    },
+    {
+      "line_id": "Line-F",
+      "timestamp": "2026-02-05 06:50:00",
+      "true_anomaly_type": "spike",
+      "score": 8.123791228788521,
+      "top_features": [
+        {
+          "feature": "motor_current_a_roll_std_1h",
+          "z_score": 5.974473851760374,
+          "value": 1.9861437180092334,
+          "calibration_mean": 0.8006529756655537
+        },
+        {
+          "feature": "motor_current_a_delta",
+          "z_score": -5.833952283880685,
+          "value": -6.722519949922685,
+          "calibration_mean": 1.2369035348989316e-06
+        },
+        {
+          "feature": "motor_current_a",
+          "z_score": -4.051158140515072,
+          "value": 9.945042672660929,
+          "calibration_mean": 15.735469335346195
+        }
+      ]
+    },
+    {
+      "line_id": "Line-F",
+      "timestamp": "2026-02-06 09:40:00",
+      "true_anomaly_type": "drift",
+      "score": 7.931190083384392,
+      "top_features": [
+        {
+          "feature": "pressure_psi",
+          "z_score": 4.409947735285429,
+          "value": 71.29636478702187,
+          "calibration_mean": 47.009617165325295
+        },
+        {
+          "feature": "pressure_psi_roll_mean_1h",
+          "z_score": 3.4226045239551817,
+          "value": 64.67773396169228,
+          "calibration_mean": 47.0094418748004
+        },
+        {
+          "feature": "vibration_mm_s",
+          "z_score": 2.7698132347147224,
+          "value": 3.817019976636488,
+          "calibration_mean": 2.5180321748737686
+        }
+      ]
+    },
+    {
+      "line_id": "Line-D",
+      "timestamp": "2026-02-06 03:25:00",
+      "true_anomaly_type": "drift",
+      "score": 7.93007185537707,
+      "top_features": [
+        {
+          "feature": "flow_rate_lpm_roll_std_1h",
+          "z_score": 3.4203578414112354,
+          "value": 6.965231112772553,
+          "calibration_mean": 3.9170806108903813
+        },
+        {
+          "feature": "flow_rate_lpm",
+          "z_score": 2.191262363009763,
+          "value": 116.58069701168785,
+          "calibration_mean": 96.17063241977742
+        },
+        {
+          "feature": "pressure_psi_delta",
+          "z_score": 2.141132689551854,
+          "value": 6.047674226209239,
+          "calibration_mean": -7.429865834226174e-05
+        }
+      ]
+    },
+    {
+      "line_id": "Line-D",
+      "timestamp": "2026-02-11 12:15:00",
+      "true_anomaly_type": "spike",
+      "score": 7.792565223121608,
+      "top_features": [
+        {
+          "feature": "flow_rate_lpm_roll_std_1h",
+          "z_score": 5.900351277183313,
+          "value": 9.175348763150957,
+          "calibration_mean": 3.9170806108903813
+        },
+        {
+          "feature": "flow_rate_lpm_delta",
+          "z_score": -5.357394465210516,
+          "value": -30.44272715921427,
+          "calibration_mean": -4.654290590345445e-05
+        },
+        {
+          "feature": "flow_rate_lpm",
+          "z_score": -4.555222443379355,
+          "value": 53.741945709623565,
+          "calibration_mean": 96.17063241977742
+        }
+      ]
+    }
+  ]
+}
