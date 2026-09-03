@@ -8,7 +8,7 @@ Isolation Forest, benchmarked against three other classical detectors).
 | # | Stage | Status |
 |---|-------|--------|
 | 1 | Repo scaffold + `generate_data.py` — synthetic multi-line sensor telemetry with labeled, categorized anomalies (spike/drift/flatline/correlated_fault), run for real at full 45-day size | ✅ done |
-| 2 | `features.py` — causal rolling features + calibration/monitoring split + scaling, with a real mutation-based no-lookahead regression test | ⬜ pending |
+| 2 | `features.py` — causal rolling features + calibration/monitoring split + scaling, with a real mutation-based no-lookahead regression test | ✅ done |
 | 3 | `detectors.py` — five detectors (Isolation Forest, LOF, One-Class SVM, PCA reconstruction error, rolling z-score baseline) behind one uniform higher-is-more-anomalous interface, with the sign-convention regression test | ⬜ pending |
 | 4 | `evaluate.py` — PR-AUC/ROC-AUC/precision/recall/F1, by-anomaly-type breakdown, cost-minimizing threshold sweep, checked against hand-computed toy examples | ⬜ pending |
 | 5 | `explain.py` — deviation-from-baseline "why was this flagged" approximation (not SHAP/LIME) | ⬜ pending |
