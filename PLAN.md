@@ -14,7 +14,8 @@ Isolation Forest, benchmarked against three other classical detectors).
 | 5 | `explain.py` — deviation-from-baseline "why was this flagged" approximation (not SHAP/LIME) | ✅ done |
 | 6 | `run_pipeline.py` — full end-to-end real run producing all `reports/*` outputs, including the PR-curve comparison plot | ✅ done |
 | 7 | `test_generate_data.py` finalized against the real full-size run's actual statistics; full test suite green | ✅ done |
-| 8 | `README.md` written last, using only real numbers from the committed `reports/*` files | ⬜ pending |
+| 8 | `README.md` written last, using only real numbers from the committed `reports/*` files | ✅ done |
 
-Update the status column as each stage lands. One stage per session/commit,
-per this author's usual pacing for multi-stage portfolio builds.
+All 8 stages complete. Every number in `README.md` was cross-checked
+against `reports/eval_summary.json` and `reports/eval_by_anomaly_type.csv`
+programmatically before committing (see the stage-8 commit message).
