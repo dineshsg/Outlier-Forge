@@ -1,5 +1,7 @@
 # Outlier Forge
 
+[![CI](https://github.com/dineshsg/Outlier-Forge/actions/workflows/ci.yml/badge.svg)](https://github.com/dineshsg/Outlier-Forge/actions/workflows/ci.yml)
+
 Multivariate sensor anomaly detection built around Isolation Forest and
 benchmarked against three other classical detectors, on synthetic
 production-line telemetry with **labeled, categorized ground-truth

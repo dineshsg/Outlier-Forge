@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run test suite
+        run: pytest tests/ -v
+
+      - name: Run full pipeline (smoke test)
+        # No API keys or network access needed - generate_data.py and
+        # run_pipeline.py are entirely self-contained (numpy/pandas/
+        # scikit-learn only), so this exercises the real end-to-end path
+        # on every push, not just the unit tests.
+        run: |
+          python -m src.generate_data --n-days 45 --out data/sensor_readings.csv
+          python -m src.run_pipeline --data-path data/sensor_readings.csv
