@@ -13,7 +13,7 @@ Isolation Forest, benchmarked against three other classical detectors).
 | 4 | `evaluate.py` — PR-AUC/ROC-AUC/precision/recall/F1, by-anomaly-type breakdown, cost-minimizing threshold sweep, checked against hand-computed toy examples | ✅ done |
 | 5 | `explain.py` — deviation-from-baseline "why was this flagged" approximation (not SHAP/LIME) | ✅ done |
 | 6 | `run_pipeline.py` — full end-to-end real run producing all `reports/*` outputs, including the PR-curve comparison plot | ✅ done |
-| 7 | `test_generate_data.py` finalized against the real full-size run's actual statistics; full test suite green | ⬜ pending |
+| 7 | `test_generate_data.py` finalized against the real full-size run's actual statistics; full test suite green | ✅ done |
 | 8 | `README.md` written last, using only real numbers from the committed `reports/*` files | ⬜ pending |
 
 Update the status column as each stage lands. One stage per session/commit,
